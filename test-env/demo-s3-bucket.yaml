@@ -1,0 +1,9 @@
+apiVersion: ec2.aws.crossplane.io/v1alpha1
+kind: Bucket
+metadata:
+  generateName: demo-s3-bucket
+spec:
+  forProvider:
+    region: us-east-2
+  providerConfigRef:
+    name: localstack
