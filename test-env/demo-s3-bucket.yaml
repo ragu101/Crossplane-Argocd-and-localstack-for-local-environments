@@ -20,4 +20,4 @@ spec:
     versioningConfiguration:
       status: Enabled
   providerConfigRef:
-    name: example
+    name: localstack
